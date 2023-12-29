@@ -1,0 +1,5 @@
+/Users/dangl/opt/anaconda3/envs/torch-gpu/lib/python3.8/site-packages/xgboost/data.py:250: FutureWarning: pandas.Int64Index is deprecated and will be removed from pandas in a future version. Use pandas.Index with the appropriate dtype instead.
+  elif isinstance(data.columns, (pd.Int64Index, pd.RangeIndex)):
+/Users/dangl/opt/anaconda3/envs/torch-gpu/lib/python3.8/site-packages/xgboost/data.py:250: FutureWarning: pandas.Int64Index is deprecated and will be removed from pandas in a future version. Use pandas.Index with the appropriate dtype instead.
+  elif isinstance(data.columns, (pd.Int64Index, pd.RangeIndex)):
+job exception: name 'pred_test' is not defined

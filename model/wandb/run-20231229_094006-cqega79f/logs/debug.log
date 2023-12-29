@@ -1,0 +1,57 @@
+2023-12-29 09:40:06,803 INFO    MainThread:10914 [wandb_setup.py:_flush():68] Configure stats pid to 10914
+2023-12-29 09:40:06,804 INFO    MainThread:10914 [wandb_setup.py:_flush():68] Loading settings from /Users/dangl/.config/wandb/settings
+2023-12-29 09:40:06,804 INFO    MainThread:10914 [wandb_setup.py:_flush():68] Loading settings from /Users/dangl/Documents/Courses/GOP/vacancy_resume_matching/model/wandb/settings
+2023-12-29 09:40:06,804 INFO    MainThread:10914 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-12-29 09:40:06,804 INFO    MainThread:10914 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-12-29 09:40:06,804 INFO    MainThread:10914 [wandb_init.py:_log_setup():476] Logging user logs to /Users/dangl/Documents/Courses/GOP/vacancy_resume_matching/model/wandb/run-20231229_094006-cqega79f/logs/debug.log
+2023-12-29 09:40:06,804 INFO    MainThread:10914 [wandb_init.py:_log_setup():477] Logging internal logs to /Users/dangl/Documents/Courses/GOP/vacancy_resume_matching/model/wandb/run-20231229_094006-cqega79f/logs/debug-internal.log
+2023-12-29 09:40:06,804 INFO    MainThread:10914 [wandb_init.py:init():516] calling init triggers
+2023-12-29 09:40:06,804 INFO    MainThread:10914 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {'colsample_bytree': 0.2762538442158579, 'learning_rate': 0.032632403368779976, 'max_depth': 5.0, 'n_estimators': 516.0, 'subsample': 0.7917710656602435}
+2023-12-29 09:40:06,804 INFO    MainThread:10914 [wandb_init.py:init():535] re-initializing run, found existing run on stack: 2qf4wsyu
+2023-12-29 09:40:06,807 INFO    MainThread:10914 [wandb_run.py:_finish():1753] finishing run dangl/GOP HW2/2qf4wsyu
+2023-12-29 09:40:06,808 INFO    MainThread:10914 [jupyter.py:save_history():448] not saving jupyter history
+2023-12-29 09:40:06,808 INFO    MainThread:10914 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-12-29 09:40:06,808 INFO    MainThread:10914 [wandb_init.py:_jupyter_teardown():408] cleaning up jupyter logic
+2023-12-29 09:40:06,808 INFO    MainThread:10914 [wandb_run.py:_atexit_cleanup():1955] got exitcode: 0
+2023-12-29 09:40:06,808 INFO    MainThread:10914 [wandb_run.py:_restore():1938] restore
+2023-12-29 09:40:06,809 INFO    MainThread:10914 [wandb_run.py:_restore():1944] restore done
+2023-12-29 09:40:12,843 INFO    MainThread:10914 [wandb_run.py:_footer_history_summary_info():3408] rendering history
+2023-12-29 09:40:12,858 INFO    MainThread:10914 [wandb_run.py:_footer_history_summary_info():3440] rendering summary
+2023-12-29 09:40:12,880 INFO    MainThread:10914 [wandb_run.py:_footer_sync_info():3364] logging synced files
+2023-12-29 09:40:12,887 INFO    MainThread:10914 [wandb_init.py:init():569] starting backend
+2023-12-29 09:40:12,888 INFO    MainThread:10914 [wandb_init.py:init():573] setting up manager
+2023-12-29 09:40:12,893 INFO    MainThread:10914 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-12-29 09:40:12,896 INFO    MainThread:10914 [wandb_init.py:init():580] backend started and connected
+2023-12-29 09:40:12,920 INFO    MainThread:10914 [wandb_run.py:_label_probe_notebook():1116] probe notebook
+2023-12-29 09:40:12,920 INFO    MainThread:10914 [wandb_run.py:_label_probe_notebook():1126] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-12-29 09:40:12,920 INFO    MainThread:10914 [wandb_init.py:init():658] updated telemetry
+2023-12-29 09:40:13,015 INFO    MainThread:10914 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2023-12-29 09:40:14,640 INFO    MainThread:10914 [wandb_run.py:_on_init():2006] communicating current version
+2023-12-29 09:40:16,088 INFO    MainThread:10914 [wandb_run.py:_on_init():2010] got version response upgrade_message: "wandb version 0.16.1 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-12-29 09:40:16,088 INFO    MainThread:10914 [wandb_init.py:init():728] starting run threads in backend
+2023-12-29 09:40:20,821 INFO    MainThread:10914 [wandb_run.py:_console_start():1986] atexit reg
+2023-12-29 09:40:20,822 INFO    MainThread:10914 [wandb_run.py:_redirect():1844] redirect: SettingsConsole.WRAP_RAW
+2023-12-29 09:40:20,822 INFO    MainThread:10914 [wandb_run.py:_redirect():1909] Wrapping output streams.
+2023-12-29 09:40:20,822 INFO    MainThread:10914 [wandb_run.py:_redirect():1931] Redirects installed.
+2023-12-29 09:40:20,823 INFO    MainThread:10914 [wandb_init.py:init():765] run started, returning control to user process
+2023-12-29 09:40:46,989 INFO    MainThread:10914 [wandb_setup.py:_flush():68] Configure stats pid to 10914
+2023-12-29 09:40:46,989 INFO    MainThread:10914 [wandb_setup.py:_flush():68] Loading settings from /Users/dangl/.config/wandb/settings
+2023-12-29 09:40:46,989 INFO    MainThread:10914 [wandb_setup.py:_flush():68] Loading settings from /Users/dangl/Documents/Courses/GOP/vacancy_resume_matching/model/wandb/settings
+2023-12-29 09:40:46,989 INFO    MainThread:10914 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-12-29 09:40:46,989 INFO    MainThread:10914 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-12-29 09:40:46,989 INFO    MainThread:10914 [wandb_init.py:_log_setup():476] Logging user logs to /Users/dangl/Documents/Courses/GOP/vacancy_resume_matching/model/wandb/run-20231229_094046-337h3tiz/logs/debug.log
+2023-12-29 09:40:46,989 INFO    MainThread:10914 [wandb_init.py:_log_setup():477] Logging internal logs to /Users/dangl/Documents/Courses/GOP/vacancy_resume_matching/model/wandb/run-20231229_094046-337h3tiz/logs/debug-internal.log
+2023-12-29 09:40:46,990 INFO    MainThread:10914 [wandb_init.py:_jupyter_setup():426] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7ff258486f10>
+2023-12-29 09:40:46,990 INFO    MainThread:10914 [wandb_init.py:init():516] calling init triggers
+2023-12-29 09:40:46,990 INFO    MainThread:10914 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {'colsample_bytree': 0.37069896654761675, 'learning_rate': 0.13161203870319035, 'max_depth': 4.0, 'n_estimators': 635.0, 'subsample': 0.7337059149664782}
+2023-12-29 09:40:46,990 INFO    MainThread:10914 [wandb_init.py:init():535] re-initializing run, found existing run on stack: cqega79f
+2023-12-29 09:40:46,992 INFO    MainThread:10914 [wandb_run.py:_finish():1753] finishing run dangl/GOP HW2/cqega79f
+2023-12-29 09:40:46,993 INFO    MainThread:10914 [wandb_run.py:_atexit_cleanup():1955] got exitcode: 0
+2023-12-29 09:40:46,993 INFO    MainThread:10914 [wandb_run.py:_restore():1938] restore
+2023-12-29 09:40:46,993 INFO    MainThread:10914 [wandb_run.py:_restore():1944] restore done
+2023-12-29 09:40:53,369 INFO    MainThread:10914 [wandb_run.py:_footer_history_summary_info():3408] rendering history
+2023-12-29 09:40:53,369 INFO    MainThread:10914 [wandb_run.py:_footer_history_summary_info():3440] rendering summary
+2023-12-29 09:40:53,374 INFO    MainThread:10914 [wandb_run.py:_footer_sync_info():3364] logging synced files

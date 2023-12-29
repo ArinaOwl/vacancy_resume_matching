@@ -1,0 +1,41 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.8.13",
+    "heartbeatAt": "2023-12-29T04:33:44.014030",
+    "startedAt": "2023-12-29T04:33:34.760633",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "git@github.com:ArinaOwl/vacancy_resume_matching.git",
+        "commit": "5f005b393671d927b24c4d39de2ec7c55393d3bb"
+    },
+    "email": "dangl11626@gmail.com",
+    "root": "/Users/dangl/Documents/Courses/GOP/vacancy_resume_matching",
+    "host": "i112099224",
+    "username": "dangl",
+    "executable": "/Users/dangl/opt/anaconda3/envs/torch-gpu/bin/python",
+    "cpu_count": 10,
+    "cpu_count_logical": 10,
+    "cpu_freq": {
+        "current": 2400,
+        "min": 2400,
+        "max": 2400
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2400,
+            "min": 2400,
+            "max": 2400
+        }
+    ],
+    "disk": {
+        "total": 460.4317207336426,
+        "used": 333.57579040527344
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

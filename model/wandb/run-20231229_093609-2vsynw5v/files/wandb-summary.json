@@ -1,0 +1,1 @@
+{"Train accuracy": 0.9556991232118136, "Val accuracy": 0.9439479308334953, "Train AUC-ROC": 0.7599508113369904, "Val AUC-ROC": 0.6988266482879096, "Train AUC-PR": 0.7765669111865225, "Val AUC-PR": 0.7114073799164853, "_timestamp": 1703824609.594817, "_runtime": 34.3428168296814, "_step": 0, "_wandb": {"runtime": 30}}
