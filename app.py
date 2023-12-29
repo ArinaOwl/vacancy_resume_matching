@@ -41,8 +41,10 @@ def predict_similarity(vacancy, cv, classifier_type):
 
     if classifier_type == 'SVM':
         return svm.predict_proba(svm.model, df_embed)[0]
-    else:
+    elif classifier_type == 'XGBoost':
         return classifier.predict_proba(df_embed)[0, 1]
+    else:
+        return (svm.predict_proba(svm.model, df_embed)[0] + classifier.predict_proba(df_embed)[0, 1]) / 2
 
 st.markdown(
         f"<div style='text-align: left;'><h1>Опредление степени соответствия вакансии и резюме</h1>\n<h2>Входные данные:</h2></div>",
@@ -50,7 +52,7 @@ st.markdown(
 
 classifier_type = st.selectbox(
     'Выберите классификатор',
-    ('SVM', 'XGBoost'))
+    ('SVM', 'XGBoost', 'SVM + XGBoost average'))
 
 vacancy = st.text_area("Текст вакансии")
 
